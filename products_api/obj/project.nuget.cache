@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uByt0Lb4IBM=",
+  "dgSpecHash": "Zk9jXrpe7m4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emil\\source\\repos\\produtos_api\\products_api\\products_api.csproj",
+  "projectFilePath": "C:\\Users\\Emil\\source\\repos\\products_api\\products_api\\products_api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emil\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",
     "C:\\Users\\Emil\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.1\\microsoft.entityframeworkcore.abstractions.9.0.1.nupkg.sha512",
