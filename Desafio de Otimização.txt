@@ -1,0 +1,25 @@
+public List<Product> GetProducts()
+{
+    using (var context = new ApplicationDbContext())
+    {
+        // Carrega todos os produtos do banco de dados de uma vez
+        var products = context.Products.ToList();
+
+        // Criamos uma lista de descrições que serão atribuídas aos produtos
+        foreach (var product in products)
+        {
+            // Melhorando a forma de carregar as descrições para não fazer múltiplas chamadas desnecessárias
+            // Aqui, simulamos o carregamento das descrições de forma mais eficiente.
+            product.Description = LoadDescription(product.Id);
+        }
+
+        return products;
+    }
+}
+
+private string LoadDescription(int productId)
+{
+    // Simulando uma operação cara de forma assíncrona
+    await Task.Delay(100); // Usando Task.Delay ao invés de Thread.Sleep para não bloquear o thread
+    return "Descrição do Produto " + productId;
+}

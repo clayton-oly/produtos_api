@@ -1,0 +1,11 @@
+1. Explique a diferença entre IEnumerable e IQueryable em .NET.
+Os dois são interfaces para trabalhar com coleções de dados, como arrays ou listas. No caso do IEnumerable, as consultas são executadas em memória. Já o IQueryable permite que a consulta não seja executada até que seja realmente necessária.
+
+2. O que são migrations no Entity Framework e como elas são usadas?
+Migrations são uma forma de gerenciar e aplicar alterações no banco de dados de forma controlada.
+
+3. Descreva uma situação em que você usaria um Repository Pattern e os 
+benefícios dessa abordagem. 
+
+4. Como você lidaria com a concorrência em um ambiente multi-thread em 
+.NET? 
